@@ -1,0 +1,18 @@
+#app {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+nav {
+  padding: 20px 0 20px 0;
+}
+
+.UploadButton::-webkit-file-upload-button{
+  padding: 20px 30px;
+  color: #fff;
+  background-color: aquamarine;
+  border: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  border-radius: 5px;
+}
