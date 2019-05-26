@@ -6,3 +6,5 @@ export default function courseReducer(state = [], action) {
       return state;
   }
 }
+
+//course reducer goes to index.js as courses renaming because export default
