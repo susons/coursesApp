@@ -10,8 +10,8 @@ export function createCourseSuccess(course) {
   return { type: types.CREATE_COURSE_SUCCESS, course };
 }
 
-export function updateCourseSuccess(courses) {
-  return {type: types.UPDATE_COURSE_SUCCESS, courses };
+export function updateCourseSuccess(course) {
+  return {type: types.UPDATE_COURSE_SUCCESS, course };
 }
 
 export function deleteCourseOptimistic(course) {
